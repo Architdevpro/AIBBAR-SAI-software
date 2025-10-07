@@ -18,8 +18,8 @@
       border: none;
       width: 100%;
       height: 100%;
+      display: none; /* hidden until loaded */
     }
-    /* fallback message in case iframe can't load */
     .fallback {
       position: absolute;
       top: 50%;
@@ -36,11 +36,32 @@
   </style>
 </head>
 <body>
-  <iframe src="https://aegis-ai-observer-sai-copy-e3871f29.base44.app" allowfullscreen></iframe>
+  <iframe
+    id="aibbarFrame"
+    src="https://aegis-ai-observer-sai-copy-e3871f29.base44.app"
+    allowfullscreen
+    onload="hideFallback()"
+  ></iframe>
 
-  <div class="fallback">
+  <div id="fallback" class="fallback">
     <h2>Loading AIBBAR v2...</h2>
     <p>If it doesn’t load automatically, <a href="https://aegis-ai-observer-sai-copy-e3871f29.base44.app" target="_blank">click here</a>.</p>
   </div>
+
+  <script>
+    function hideFallback() {
+      document.getElementById('fallback').style.display = 'none';
+      document.getElementById('aibbarFrame').style.display = 'block';
+    }
+
+    // Safety fallback if iframe doesn't load within 10s
+    setTimeout(() => {
+      const iframe = document.getElementById('aibbarFrame');
+      if (iframe.style.display === 'none') {
+        document.getElementById('fallback').innerHTML =
+          '<h2>⚠️ Unable to load AIBBAR v2</h2><p>Please <a href="https://aegis-ai-observer-sai-copy-e3871f29.base44.app" target="_blank">click here</a> to open it manually.</p>';
+      }
+    }, 10000);
+  </script>
 </body>
 </html>
