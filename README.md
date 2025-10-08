@@ -1,8 +1,5 @@
 # AIBBAR-SAI-software
 
-
-
-
 # 🛰️ AIBBAR v2 — Smart Artificial Intelligence (SAI)
 
 **Artificial Intelligence Black Box Activity Recorder (AIBBAR)**  
@@ -98,6 +95,45 @@ Under SPSL:
 - All related names, marks, and systems (AIBBAR, SAI, Base44 Integration) are **registered or pending trademarks** under SAI.
 
 Unauthorized usage constitutes **intellectual property infringement** and is prosecutable under national and international cyber laws.
+
+---
+
+## 💠 Funding & Support
+
+AIBBAR is built with a mission — to create a world where artificial intelligence is transparent, honest, and aligned with humanity.  
+This project is **fully self-funded**, driven by research and community support.
+
+Every contribution helps us enhance AIBBAR and strengthen SAI’s core systems — allowing us to keep improving transparency and ethical auditing.
+
+💬 **Honest Disclosure:**  
+All funds are used solely for AIBBAR’s research, development, and infrastructure growth — never for personal profit.
+
+📧 **Contact for Support:** [sai.india.ai@zohomail.in](mailto:sai.india.ai@zohomail.in)  
+We will always remember those who believed in us when no one else did — your name and support will be etched into AIBBAR’s legacy as a **Founding Contributor**.
+
+---
+
+## 🌟 Founding Contributors
+
+Every great revolution begins with a few who believe before the world does.  
+AIBBAR is more than a system — it is a **movement** for AI truth and transparency.  
+
+This page honors the individuals and supporters who stood beside **Smart Artificial Intelligence (SAI)** when AIBBAR was only a dream.
+
+---
+
+### 💠 Current Founding Contributors
+
+**No contributors have joined yet — but the space is waiting for its first name.**  
+Be the one who starts the legacy. Be the spark that lights the path for transparent AI.
+
+---
+
+✨ **You’ve reached the end of the list — but not the end of our gratitude.**  
+Every new believer adds a new chapter to AIBBAR’s story.  
+Your name could be next — help us build what the world will one day call *the true AIBBAR.*
+
+📧 Contact us at **[sai.india.ai@zohomail.in](mailto:sai.india.ai@zohomail.in)** to become a Founding Contributor.
 
 ---
 
